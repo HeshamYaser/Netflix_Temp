@@ -1,0 +1,34 @@
+.plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.props {
+    display: flex;
+    flex-direction: column;
+}
+
+.props .prop h5 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.props .prop h6 {
+    margin-top: -20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.buttons .button button {
+    height: 50px;
+    width: 120px;
+    margin-bottom: 40px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
